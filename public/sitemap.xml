@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://seedance2.site/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://seedance2.site/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://seedance2.site/zh"/>
+    <lastmod>2025-02-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://seedance2.site/zh</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://seedance2.site/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://seedance2.site/zh"/>
+    <lastmod>2025-02-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://seedance2.site/guide</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://seedance2.site/guide"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://seedance2.site/zh/guide"/>
+    <lastmod>2025-02-07T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seedance2.site/zh/guide</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://seedance2.site/guide"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://seedance2.site/zh/guide"/>
+    <lastmod>2025-02-07T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seedance2.site/examples</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://seedance2.site/examples"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://seedance2.site/zh/examples"/>
+    <lastmod>2025-02-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seedance2.site/zh/examples</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://seedance2.site/examples"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://seedance2.site/zh/examples"/>
+    <lastmod>2025-02-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seedance2.site/compare</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://seedance2.site/compare"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://seedance2.site/zh/compare"/>
+    <lastmod>2025-02-07T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://seedance2.site/zh/compare</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://seedance2.site/compare"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://seedance2.site/zh/compare"/>
+    <lastmod>2025-02-07T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://seedance2.site/privacy-policy</loc>
+    <lastmod>2025-02-07T00:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://seedance2.site/terms-of-service</loc>
+    <lastmod>2025-02-07T00:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+</urlset>

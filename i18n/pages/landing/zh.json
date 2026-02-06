@@ -1,0 +1,735 @@
+{
+  "template": "seedance2-template-one",
+  "theme": "dark",
+  "header": {
+    "brand": {
+      "title": "Seedance 2.0",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "Seedance 2.0"
+      },
+      "url": "/zh"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "功能特性",
+          "url": "/#feature",
+          "icon": "HiOutlineSparkles"
+        },
+        {
+          "title": "案例展示",
+          "url": "/#showcase",
+          "icon": "BiCube"
+        },
+        {
+          "title": "价格方案",
+          "url": "/#pricing",
+          "icon": "MdPayment"
+        },
+        {
+          "title": "资源中心",
+          "url": "#",
+          "icon": "RiBookLine",
+          "children": [
+            {
+              "title": "Prompt 指南",
+              "description": "学习如何编写高效的提示词",
+              "icon": "RiBookOpenLine",
+              "url": "/guide",
+              "target": "_self"
+            },
+            {
+              "title": "示例库",
+              "description": "浏览视频示例及对应 Prompt",
+              "icon": "RiVideoLine",
+              "url": "/examples",
+              "target": "_self"
+            },
+            {
+              "title": "竞品对比",
+              "description": "了解 Seedance 2.0 与其他产品的对比",
+              "icon": "RiBarChartHorizontalLine",
+              "url": "/compare",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "buttons": [
+      {
+        "title": "体验 Seedance 2.0",
+        "url": "https://jimeng.jianying.com/ai-tool/seedance",
+        "target": "_blank",
+        "variant": "default",
+        "icon": "RiArrowRightUpLine"
+      }
+    ],
+    "show_sign": false,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "原生音视频同步的 AI 视频生成",
+    "highlight_text": "原生音视频同步",
+    "description": "Seedance 2.0 是字节跳动 Seed 团队推出的新一代 AI 视频生成模型。<br/>生成 2K 电影级视频，音频完美同步，支持唇形同步和多镜头叙事。",
+    "announcement": {
+      "label": "#1",
+      "title": "Artificial Analysis 排行榜第一名",
+      "url": "/#stats"
+    },
+    "tip": "",
+    "buttons": [
+      {
+        "title": "免费体验",
+        "icon": "RiFlashlightFill",
+        "url": "https://jimeng.jianying.com/ai-tool/seedance",
+        "target": "_blank",
+        "variant": "default"
+      },
+      {
+        "title": "查看案例",
+        "icon": "RiPlayCircleLine",
+        "url": "/#showcase",
+        "target": "_self",
+        "variant": "outline"
+      }
+    ],
+    "show_happy_users": true,
+    "show_badge": true
+  },
+  "branding": {
+    "title": "字节跳动 Seed 团队技术驱动",
+    "items": [
+      {
+        "title": "字节跳动",
+        "image": {
+          "src": "/imgs/logos/bytedance.svg",
+          "alt": "字节跳动"
+        }
+      },
+      {
+        "title": "Seed 团队",
+        "image": {
+          "src": "/imgs/logos/seed.svg",
+          "alt": "Seed Team"
+        }
+      },
+      {
+        "title": "2K 分辨率",
+        "image": {
+          "src": "/imgs/logos/2k.svg",
+          "alt": "2K 分辨率"
+        }
+      },
+      {
+        "title": "8+ 语言",
+        "image": {
+          "src": "/imgs/logos/languages.svg",
+          "alt": "8+ 语言"
+        }
+      },
+      {
+        "title": "双分支 DiT",
+        "image": {
+          "src": "/imgs/logos/dit.svg",
+          "alt": "Dual-Branch DiT"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "name": "introduce",
+    "title": "什么是 Seedance 2.0",
+    "label": "产品介绍",
+    "description": "Seedance 2.0 是全球首个支持原生音视频同步的 AI 视频生成模型。生成工作室级品质的视频，音效、对话、音乐完美同步。",
+    "image": {
+      "src": "/imgs/features/seedance-intro.png"
+    },
+    "items": [
+      {
+        "title": "原生音视频同步",
+        "description": "与后期处理不同，Seedance 2.0 通过双分支扩散 Transformer 架构同时生成音频和视频。",
+        "icon": "RiSoundModuleFill"
+      },
+      {
+        "title": "音素级唇形同步",
+        "description": "支持 8+ 语言的完美唇形同步，包括中文、英语、韩语、日语和西班牙语。",
+        "icon": "RiUserVoiceFill"
+      },
+      {
+        "title": "电影级画质",
+        "description": "生成 2K 分辨率视频，具备专业级视觉效果和流畅过渡。",
+        "icon": "RiFilmFill"
+      }
+    ]
+  },
+  "benefit": {
+    "name": "benefit",
+    "title": "为什么选择 Seedance 2.0",
+    "label": "核心优势",
+    "description": "最先进的 AI 视频生成技术，提供无与伦比的质量和性能。",
+    "items": [
+      {
+        "title": "完美唇形同步",
+        "description": "革命性的音素级唇形同步技术，确保角色在任何语言中都能自然说话。告别恐怖谷效应，呈现真实、富有表现力的数字人。",
+        "icon": "RiUserVoiceFill",
+        "image": {
+          "src": "/imgs/features/lip-sync.png"
+        }
+      },
+      {
+        "title": "多镜头叙事",
+        "description": "一个 Prompt 生成复杂的电影级场景序列。Seedance 2.0 理解故事结构，生成角色和场景一致的连贯多场景视频。",
+        "icon": "RiFilmFill",
+        "image": {
+          "src": "/imgs/features/multi-shot.png"
+        }
+      },
+      {
+        "title": "生成速度提升 30%",
+        "description": "优化的架构比任何竞品都快，在不牺牲质量的前提下，用更短的时间创造更多内容。",
+        "icon": "RiSpeedFill",
+        "image": {
+          "src": "/imgs/features/speed.png"
+        }
+      }
+    ]
+  },
+  "usage": {
+    "name": "usage",
+    "title": "如何使用 Seedance 2.0",
+    "description": "四步生成精彩 AI 视频：",
+    "image": {
+      "src": "/imgs/features/usage-hero.png"
+    },
+    "image_position": "left",
+    "text_align": "center",
+    "items": [
+      {
+        "title": "编写 Prompt",
+        "description": "描述视频场景、角色、动作和期望的音频。明确说明情绪、场景和对话内容。",
+        "image": {
+          "src": "/imgs/features/step1.png"
+        }
+      },
+      {
+        "title": "选择语言和风格",
+        "description": "从 8+ 语言中选择对话和唇形同步语言。选择视觉风格 - 电影级、动漫、写实或艺术风格。",
+        "image": {
+          "src": "/imgs/features/step2.png"
+        }
+      },
+      {
+        "title": "生成视频",
+        "description": "Seedance 2.0 处理您的 Prompt，使用双分支 DiT 技术生成同步的音频和视频。",
+        "image": {
+          "src": "/imgs/features/step3.png"
+        }
+      },
+      {
+        "title": "下载分享",
+        "description": "导出 2K 分辨率视频及原生音频。可用于社交媒体、演示文稿或专业制作。",
+        "image": {
+          "src": "/imgs/features/step4.png"
+        }
+      }
+    ]
+  },
+  "feature": {
+    "name": "feature",
+    "title": "Seedance 2.0 核心功能",
+    "description": "前沿技术，树立 AI 视频生成新标准。",
+    "items": [
+      {
+        "title": "原生音频生成",
+        "description": "同步生成音效、音乐和对话，而非后期添加。",
+        "icon": "RiSoundModuleFill"
+      },
+      {
+        "title": "8+ 语言支持",
+        "description": "中文、英语、韩语、日语、西班牙语等多语言完美唇形同步。",
+        "icon": "RiTranslate2"
+      },
+      {
+        "title": "2K 分辨率输出",
+        "description": "电影级 2K 分辨率视频输出，适合专业制作和分发。",
+        "icon": "Ri4kFill"
+      },
+      {
+        "title": "多镜头叙事",
+        "description": "生成角色和场景一致的连贯多场景视频，无缝过渡。",
+        "icon": "RiMovieFill"
+      },
+      {
+        "title": "双分支 DiT 架构",
+        "description": "革命性的扩散 Transformer，音频和视频分支独立处理又完美同步。",
+        "icon": "RiGitBranchLine"
+      },
+      {
+        "title": "比竞品快 30%",
+        "description": "优化的生成管道，在保证质量的同时加速输出。",
+        "icon": "RiSpeedFill"
+      }
+    ]
+  },
+  "showcase": {
+    "name": "showcase",
+    "title": "Seedance 2.0 实际效果展示",
+    "description": "真实案例展示原生音视频生成的强大能力。",
+    "items": [
+      {
+        "title": "电影对话场景",
+        "description": "两个角色使用英语对话，完美唇形同步",
+        "url": "#",
+        "target": "_self",
+        "image": {
+          "src": "/imgs/showcases/dialogue.png"
+        },
+        "video_url": "/videos/showcase/dialogue.mp4"
+      },
+      {
+        "title": "多语言旁白",
+        "description": "同一场景分别用中文、英语、日语配音",
+        "url": "#",
+        "target": "_self",
+        "image": {
+          "src": "/imgs/showcases/multilang.png"
+        },
+        "video_url": "/videos/showcase/multilang.mp4"
+      },
+      {
+        "title": "动作序列",
+        "description": "多镜头动作场景，音效完美同步",
+        "url": "#",
+        "target": "_self",
+        "image": {
+          "src": "/imgs/showcases/action.png"
+        },
+        "video_url": "/videos/showcase/action.mp4"
+      },
+      {
+        "title": "音乐表演",
+        "description": "AI 生成的歌手，演唱和动作完美同步",
+        "url": "#",
+        "target": "_self",
+        "image": {
+          "src": "/imgs/showcases/music.png"
+        },
+        "video_url": "/videos/showcase/music.mp4"
+      },
+      {
+        "title": "自然纪录片",
+        "description": "野生动物场景配合环境音效和旁白",
+        "url": "#",
+        "target": "_self",
+        "image": {
+          "src": "/imgs/showcases/nature.png"
+        },
+        "video_url": "/videos/showcase/nature.mp4"
+      },
+      {
+        "title": "产品广告",
+        "description": "专业产品展示配合画外音",
+        "url": "#",
+        "target": "_self",
+        "image": {
+          "src": "/imgs/showcases/commercial.png"
+        },
+        "video_url": "/videos/showcase/commercial.mp4"
+      }
+    ]
+  },
+  "stats": {
+    "name": "stats",
+    "label": "性能数据",
+    "title": "AI 视频生成模型排名第一",
+    "description": "在 Artificial Analysis 基准测试中超越 Sora、Runway、Veo 3 和 Kling。",
+    "icon": "RiTrophyFill",
+    "items": [
+      {
+        "title": "排名",
+        "label": "#1",
+        "description": "Artificial Analysis"
+      },
+      {
+        "title": "语言",
+        "label": "8+",
+        "description": "支持语种"
+      },
+      {
+        "title": "更快",
+        "label": "30%",
+        "description": "领先竞品"
+      }
+    ]
+  },
+  "pricing": {
+    "name": "pricing",
+    "label": "价格方案",
+    "title": "选择适合您的方案",
+    "description": "立即开始使用原生音视频同步的 AI 视频生成。",
+    "groups": [],
+    "items": [
+      {
+        "title": "免费版",
+        "description": "体验 Seedance 2.0 基础功能。",
+        "features_title": "包含",
+        "features": [
+          "每天 5 次视频生成",
+          "720p 分辨率",
+          "基础音频同步",
+          "3 种语言（中/英/日）",
+          "导出带水印",
+          "社区支持"
+        ],
+        "interval": "monthly",
+        "amount": 0,
+        "currency": "USD",
+        "price": "免费",
+        "original_price": "",
+        "unit": "",
+        "is_featured": false,
+        "tip": "无需信用卡",
+        "button": {
+          "title": "开始使用",
+          "url": "https://jimeng.jianying.com/ai-tool/seedance",
+          "target": "_blank",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "free",
+        "product_name": "Seedance 2.0 免费版",
+        "credits": 5,
+        "valid_months": 1
+      },
+      {
+        "title": "基础版",
+        "description": "适合个人创作者和爱好者。",
+        "features_title": "免费版全部功能，另加",
+        "features": [
+          "每月 50 次视频生成",
+          "1080p 分辨率",
+          "高级音频同步",
+          "全部 8+ 语言",
+          "无水印",
+          "优先队列"
+        ],
+        "interval": "monthly",
+        "amount": 1900,
+        "currency": "USD",
+        "price": "$19",
+        "original_price": "$29",
+        "unit": "/月",
+        "is_featured": false,
+        "tip": "随时取消",
+        "button": {
+          "title": "订阅",
+          "url": "https://jimeng.jianying.com/ai-tool/seedance",
+          "target": "_blank",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "basic",
+        "product_name": "Seedance 2.0 基础版",
+        "credits": 50,
+        "valid_months": 1
+      },
+      {
+        "title": "专业版",
+        "label": "最受欢迎",
+        "description": "适合专业创作者和小型团队。",
+        "features_title": "基础版全部功能，另加",
+        "features": [
+          "每月 200 次视频生成",
+          "2K 分辨率",
+          "多镜头叙事",
+          "自定义语音克隆",
+          "API 接口",
+          "优先支持"
+        ],
+        "interval": "monthly",
+        "amount": 4900,
+        "currency": "USD",
+        "price": "$49",
+        "original_price": "$79",
+        "unit": "/月",
+        "is_featured": true,
+        "tip": "创作者最佳选择",
+        "button": {
+          "title": "订阅",
+          "url": "https://jimeng.jianying.com/ai-tool/seedance",
+          "target": "_blank",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "plus",
+        "product_name": "Seedance 2.0 专业版",
+        "credits": 200,
+        "valid_months": 1
+      },
+      {
+        "title": "企业版",
+        "description": "适合工作室和企业团队。",
+        "features_title": "专业版全部功能，另加",
+        "features": [
+          "无限视频生成",
+          "4K 分辨率（即将推出）",
+          "团队协作",
+          "自定义模型微调",
+          "专属客服",
+          "SLA 保障"
+        ],
+        "interval": "monthly",
+        "amount": 19900,
+        "currency": "USD",
+        "price": "$199",
+        "original_price": "$299",
+        "unit": "/月",
+        "is_featured": false,
+        "tip": "企业级功能",
+        "button": {
+          "title": "联系销售",
+          "url": "mailto:sales@seedance2.site",
+          "target": "_blank",
+          "icon": "RiMailLine"
+        },
+        "product_id": "pro",
+        "product_name": "Seedance 2.0 企业版",
+        "credits": -1,
+        "valid_months": 1
+      }
+    ]
+  },
+  "testimonial": {
+    "name": "testimonial",
+    "label": "用户评价",
+    "title": "创作者怎么说",
+    "description": "加入数千名使用 Seedance 2.0 创作精彩内容的创作者。",
+    "icon": "GoThumbsup",
+    "items": [
+      {
+        "title": "陈浩",
+        "label": "电影导演",
+        "description": "唇形同步技术令人惊叹。我试过所有 AI 视频工具，Seedance 2.0 是第一个能产出可信对话场景的。它改变了我制作预览的方式。",
+        "image": {
+          "src": "/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "Maria Rodriguez",
+        "label": "内容创作者",
+        "description": "我用西班牙语和英语创作内容。Seedance 2.0 的多语言支持非常流畅，两种语言的唇形同步都很完美。我的观众互动率翻了一倍。",
+        "image": {
+          "src": "/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "田中优希",
+        "label": "动画工作室负责人",
+        "description": "多镜头功能是真正的突破。我们现在可以用一个 Prompt 生成复杂的场景序列。就像团队里多了一个虚拟摄影师。",
+        "image": {
+          "src": "/imgs/users/3.png"
+        }
+      },
+      {
+        "title": "James Wilson",
+        "label": "市场总监",
+        "description": "我们的视频制作时间缩短了 80%。原生音频生成意味着不再有同步问题，也不需要为每个语言版本请配音演员。",
+        "image": {
+          "src": "/imgs/users/4.png"
+        }
+      },
+      {
+        "title": "Sophie Laurent",
+        "label": "独立游戏开发者",
+        "description": "对于游戏 CG，Seedance 2.0 无可匹敌。2K 画质和同步音频让我们的预告片看起来像 3A 大作，但成本只是一小部分。",
+        "image": {
+          "src": "/imgs/users/5.png"
+        }
+      },
+      {
+        "title": "金敏俊",
+        "label": "韩剧内容创作者",
+        "description": "终于有 AI 能理解韩语唇形同步了！音素级精度令人印象深刻。我的韩语内容从未如此逼真。",
+        "image": {
+          "src": "/imgs/users/6.png"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "name": "faq",
+    "label": "常见问题",
+    "title": "常见问题解答",
+    "description": "还有其他问题？请联系 support@seedance2.site",
+    "items": [
+      {
+        "title": "Seedance 2.0 和其他 AI 视频生成工具有什么不同？",
+        "description": "Seedance 2.0 是首个支持原生音视频同步的 AI 视频模型。与先生成视频再添加音频的工具不同，Seedance 2.0 使用双分支扩散 Transformer 同时生成完美同步的音频和视频。这带来了自然的唇形同步、精准的音效时机和连贯的视听叙事。"
+      },
+      {
+        "title": "支持哪些语言的唇形同步？",
+        "description": "Seedance 2.0 支持 8+ 语言的音素级唇形同步：中文（普通话）、英语、韩语、日语、西班牙语、法语、德语和葡萄牙语。更多语言正在持续添加中。每种语言都经过专门训练，确保口型动作准确、语音模式自然。"
+      },
+      {
+        "title": "可以期待什么样的分辨率和画质？",
+        "description": "Seedance 2.0 可生成最高 2K 分辨率（2560x1440）的电影级视觉效果视频。企业版即将支持 4K 输出。所有视频都采用 30fps 流畅播放，高码率编码，适合专业分发。"
+      },
+      {
+        "title": "多镜头叙事生成是如何工作的？",
+        "description": "使用多镜头生成，您可以在一个 Prompt 中描述完整的场景序列，Seedance 2.0 会生成多个连贯的镜头，角色、场景和故事情节保持一致。例如，您可以描述一段带有反应镜头的对话，AI 会创建一个完整的剪辑序列。"
+      },
+      {
+        "title": "生成的视频可以用于商业用途吗？",
+        "description": "可以！所有付费方案（基础版、专业版、企业版）都包含生成内容的完整商业使用权。免费版视频带有水印，仅限个人/非商业使用。建议查阅我们的服务条款了解具体使用指南。"
+      },
+      {
+        "title": "Seedance 2.0 和 Sora、Runway、Veo 3 相比如何？",
+        "description": "Seedance 2.0 在 Artificial Analysis 基准测试中排名第一，在整体视频质量上超越 Sora、Runway Gen-3、Veo 3 和 Kling。主要优势包括：原生音视频同步（无需后期处理）、更优秀的唇形同步精度、多镜头叙事能力，以及 30% 更快的生成速度。详见我们的对比页面。"
+      },
+      {
+        "title": "什么是双分支扩散 Transformer 架构？",
+        "description": "双分支 DiT 是 Seedance 2.0 的核心创新。它使用两个并行的 Transformer 分支——一个用于视频生成，一个用于音频——在每个去噪步骤中共享信息。这使模型能够生成完美同步的音视频，而非将它们作为独立输出处理。"
+      },
+      {
+        "title": "开发者可以使用 API 吗？",
+        "description": "可以，专业版及以上方案提供 API 接口。Seedance 2.0 API 允许您将视频生成集成到应用中，支持文生视频、图生视频和视频转视频。完整 API 文档请访问 docs.seedance2.site。"
+      }
+    ]
+  },
+  "cta": {
+    "name": "cta",
+    "title": "开始使用 Seedance 2.0 创作",
+    "description": "加入原生音视频同步的 AI 视频生成新时代。",
+    "buttons": [
+      {
+        "title": "立即免费体验",
+        "url": "https://jimeng.jianying.com/ai-tool/seedance",
+        "target": "_blank",
+        "icon": "RiFlashlightFill"
+      },
+      {
+        "title": "查看使用指南",
+        "url": "/guide",
+        "target": "_self",
+        "variant": "outline"
+      }
+    ]
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "Seedance 2.0",
+      "description": "全球首个支持原生音视频同步的 AI 视频生成模型。由字节跳动 Seed 团队研发。",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "Seedance 2.0"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2025 字节跳动 Seed 团队。保留所有权利。",
+    "nav": {
+      "items": [
+        {
+          "title": "产品",
+          "children": [
+            {
+              "title": "功能特性",
+              "url": "/#feature",
+              "target": "_self"
+            },
+            {
+              "title": "案例展示",
+              "url": "/#showcase",
+              "target": "_self"
+            },
+            {
+              "title": "价格方案",
+              "url": "/#pricing",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "资源",
+          "children": [
+            {
+              "title": "Prompt 指南",
+              "url": "/guide",
+              "target": "_self"
+            },
+            {
+              "title": "示例库",
+              "url": "/examples",
+              "target": "_self"
+            },
+            {
+              "title": "竞品对比",
+              "url": "/compare",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "公司",
+          "children": [
+            {
+              "title": "字节跳动",
+              "url": "https://bytedance.com",
+              "target": "_blank"
+            },
+            {
+              "title": "Seed 团队",
+              "url": "https://seed.bytedance.com",
+              "target": "_blank"
+            },
+            {
+              "title": "即梦 AI",
+              "url": "https://jimeng.jianying.com",
+              "target": "_blank"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "X",
+          "icon": "RiTwitterXFill",
+          "url": "https://x.com/seedance_ai",
+          "target": "_blank"
+        },
+        {
+          "title": "GitHub",
+          "icon": "RiGithubFill",
+          "url": "https://github.com/bytedance",
+          "target": "_blank"
+        },
+        {
+          "title": "Discord",
+          "icon": "RiDiscordFill",
+          "url": "https://discord.gg/seedance",
+          "target": "_blank"
+        },
+        {
+          "title": "邮箱",
+          "icon": "RiMailLine",
+          "url": "mailto:support@seedance2.site",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "隐私政策",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "服务条款",
+          "url": "/terms-of-service"
+        }
+      ]
+    }
+  }
+}

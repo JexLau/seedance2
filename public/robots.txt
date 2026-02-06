@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /*?*q=
+Disallow: /api/
+Disallow: /admin/
+Disallow: /my-orders
+Disallow: /my-credits
+Disallow: /my-invites
+Disallow: /api-keys
+
+Sitemap: https://seedance2.site/sitemap.xml

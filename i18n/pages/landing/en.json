@@ -1,0 +1,735 @@
+{
+  "template": "seedance2-template-one",
+  "theme": "dark",
+  "header": {
+    "brand": {
+      "title": "Seedance 2.0",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "Seedance 2.0"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Features",
+          "url": "/#feature",
+          "icon": "HiOutlineSparkles"
+        },
+        {
+          "title": "Showcase",
+          "url": "/#showcase",
+          "icon": "BiCube"
+        },
+        {
+          "title": "Pricing",
+          "url": "/#pricing",
+          "icon": "MdPayment"
+        },
+        {
+          "title": "Resources",
+          "url": "#",
+          "icon": "RiBookLine",
+          "children": [
+            {
+              "title": "Prompt Guide",
+              "description": "Learn how to write effective prompts",
+              "icon": "RiBookOpenLine",
+              "url": "/guide",
+              "target": "_self"
+            },
+            {
+              "title": "Examples",
+              "description": "Browse video examples with prompts",
+              "icon": "RiVideoLine",
+              "url": "/examples",
+              "target": "_self"
+            },
+            {
+              "title": "Compare",
+              "description": "See how Seedance 2.0 compares to others",
+              "icon": "RiBarChartHorizontalLine",
+              "url": "/compare",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "buttons": [
+      {
+        "title": "Try Seedance 2.0",
+        "url": "https://jimeng.jianying.com/ai-tool/seedance",
+        "target": "_blank",
+        "variant": "default",
+        "icon": "RiArrowRightUpLine"
+      }
+    ],
+    "show_sign": false,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "AI Video Generation with Native Audio Sync",
+    "highlight_text": "Native Audio Sync",
+    "description": "Seedance 2.0 is ByteDance's next-generation AI video model.<br/>Generate cinematic 2K videos with perfectly synchronized audio, lip-sync, and multi-shot narratives.",
+    "announcement": {
+      "label": "#1",
+      "title": "Ranked #1 on Artificial Analysis",
+      "url": "/#stats"
+    },
+    "tip": "",
+    "buttons": [
+      {
+        "title": "Try Free Now",
+        "icon": "RiFlashlightFill",
+        "url": "https://jimeng.jianying.com/ai-tool/seedance",
+        "target": "_blank",
+        "variant": "default"
+      },
+      {
+        "title": "View Examples",
+        "icon": "RiPlayCircleLine",
+        "url": "/#showcase",
+        "target": "_self",
+        "variant": "outline"
+      }
+    ],
+    "show_happy_users": true,
+    "show_badge": true
+  },
+  "branding": {
+    "title": "Powered by ByteDance Seed Team",
+    "items": [
+      {
+        "title": "ByteDance",
+        "image": {
+          "src": "/imgs/logos/bytedance.svg",
+          "alt": "ByteDance"
+        }
+      },
+      {
+        "title": "Seed Team",
+        "image": {
+          "src": "/imgs/logos/seed.svg",
+          "alt": "Seed Team"
+        }
+      },
+      {
+        "title": "2K Resolution",
+        "image": {
+          "src": "/imgs/logos/2k.svg",
+          "alt": "2K Resolution"
+        }
+      },
+      {
+        "title": "8+ Languages",
+        "image": {
+          "src": "/imgs/logos/languages.svg",
+          "alt": "8+ Languages"
+        }
+      },
+      {
+        "title": "Dual-Branch DiT",
+        "image": {
+          "src": "/imgs/logos/dit.svg",
+          "alt": "Dual-Branch DiT"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "name": "introduce",
+    "title": "What is Seedance 2.0",
+    "label": "Introduce",
+    "description": "Seedance 2.0 is the world's first AI video model with native audio-video synchronization. Generate studio-quality videos with perfectly timed sound effects, dialogue, and music.",
+    "image": {
+      "src": "/imgs/features/seedance-intro.png"
+    },
+    "items": [
+      {
+        "title": "Native Audio-Video Sync",
+        "description": "Unlike post-processing approaches, Seedance 2.0 generates audio and video simultaneously through Dual-Branch Diffusion Transformer architecture.",
+        "icon": "RiSoundModuleFill"
+      },
+      {
+        "title": "Phoneme-Level Lip Sync",
+        "description": "Achieve perfect lip synchronization across 8+ languages including English, Chinese, Korean, Japanese, and Spanish.",
+        "icon": "RiUserVoiceFill"
+      },
+      {
+        "title": "Cinematic Quality",
+        "description": "Generate 2K resolution videos with professional-grade visual effects and seamless transitions.",
+        "icon": "RiFilmFill"
+      }
+    ]
+  },
+  "benefit": {
+    "name": "benefit",
+    "title": "Why Choose Seedance 2.0",
+    "label": "Benefits",
+    "description": "The most advanced AI video generation technology, delivering unmatched quality and performance.",
+    "items": [
+      {
+        "title": "Perfect Lip Synchronization",
+        "description": "Revolutionary phoneme-level lip sync technology ensures characters speak naturally in any language. No more uncanny valley - just realistic, expressive digital humans.",
+        "icon": "RiUserVoiceFill",
+        "image": {
+          "src": "/imgs/features/lip-sync.png"
+        }
+      },
+      {
+        "title": "Multi-Shot Narratives",
+        "description": "Create complex, cinematic sequences from a single prompt. Seedance 2.0 understands story structure and generates coherent multi-scene videos with consistent characters and settings.",
+        "icon": "RiFilmFill",
+        "image": {
+          "src": "/imgs/features/multi-shot.png"
+        }
+      },
+      {
+        "title": "30% Faster Generation",
+        "description": "Optimized architecture delivers studio-quality results faster than any competitor. Generate more content in less time without compromising on quality.",
+        "icon": "RiSpeedFill",
+        "image": {
+          "src": "/imgs/features/speed.png"
+        }
+      }
+    ]
+  },
+  "usage": {
+    "name": "usage",
+    "title": "How to Use Seedance 2.0",
+    "description": "Create stunning AI videos in four simple steps:",
+    "image": {
+      "src": "/imgs/features/usage-hero.png"
+    },
+    "image_position": "left",
+    "text_align": "center",
+    "items": [
+      {
+        "title": "Write Your Prompt",
+        "description": "Describe your video scene, characters, actions, and desired audio. Be specific about mood, setting, and dialogue.",
+        "image": {
+          "src": "/imgs/features/step1.png"
+        }
+      },
+      {
+        "title": "Choose Language & Style",
+        "description": "Select from 8+ languages for dialogue and lip-sync. Pick your visual style - cinematic, anime, realistic, or artistic.",
+        "image": {
+          "src": "/imgs/features/step2.png"
+        }
+      },
+      {
+        "title": "Generate Video",
+        "description": "Seedance 2.0 processes your prompt and generates synchronized audio and video using Dual-Branch DiT technology.",
+        "image": {
+          "src": "/imgs/features/step3.png"
+        }
+      },
+      {
+        "title": "Download & Share",
+        "description": "Export your 2K resolution video with native audio. Ready for social media, presentations, or professional production.",
+        "image": {
+          "src": "/imgs/features/step4.png"
+        }
+      }
+    ]
+  },
+  "feature": {
+    "name": "feature",
+    "title": "Key Features of Seedance 2.0",
+    "description": "Cutting-edge technology that sets a new standard for AI video generation.",
+    "items": [
+      {
+        "title": "Native Audio Generation",
+        "description": "Synchronized sound effects, music, and dialogue generated alongside video - not added in post-processing.",
+        "icon": "RiSoundModuleFill"
+      },
+      {
+        "title": "8+ Language Support",
+        "description": "Perfect lip synchronization in Chinese, English, Korean, Japanese, Spanish, and more languages.",
+        "icon": "RiTranslate2"
+      },
+      {
+        "title": "2K Resolution Output",
+        "description": "Cinema-quality 2K resolution video output suitable for professional production and distribution.",
+        "icon": "Ri4kFill"
+      },
+      {
+        "title": "Multi-Shot Storytelling",
+        "description": "Generate coherent multi-scene narratives with consistent characters and seamless transitions.",
+        "icon": "RiMovieFill"
+      },
+      {
+        "title": "Dual-Branch DiT Architecture",
+        "description": "Revolutionary Diffusion Transformer with separate audio and video branches for perfect synchronization.",
+        "icon": "RiGitBranchLine"
+      },
+      {
+        "title": "30% Faster Than Competitors",
+        "description": "Optimized generation pipeline delivers results faster without compromising quality.",
+        "icon": "RiSpeedFill"
+      }
+    ]
+  },
+  "showcase": {
+    "name": "showcase",
+    "title": "See Seedance 2.0 in Action",
+    "description": "Real examples showcasing the power of native audio-video generation.",
+    "items": [
+      {
+        "title": "Cinematic Dialogue Scene",
+        "description": "Two characters having a conversation with perfect lip-sync in English",
+        "url": "#",
+        "target": "_self",
+        "image": {
+          "src": "/imgs/showcases/dialogue.png"
+        },
+        "video_url": "/videos/showcase/dialogue.mp4"
+      },
+      {
+        "title": "Multi-Language Narrator",
+        "description": "Same scene narrated in Chinese, English, and Japanese",
+        "url": "#",
+        "target": "_self",
+        "image": {
+          "src": "/imgs/showcases/multilang.png"
+        },
+        "video_url": "/videos/showcase/multilang.mp4"
+      },
+      {
+        "title": "Action Sequence",
+        "description": "Multi-shot action scene with synchronized sound effects",
+        "url": "#",
+        "target": "_self",
+        "image": {
+          "src": "/imgs/showcases/action.png"
+        },
+        "video_url": "/videos/showcase/action.mp4"
+      },
+      {
+        "title": "Musical Performance",
+        "description": "AI-generated singer with synchronized vocals and movements",
+        "url": "#",
+        "target": "_self",
+        "image": {
+          "src": "/imgs/showcases/music.png"
+        },
+        "video_url": "/videos/showcase/music.mp4"
+      },
+      {
+        "title": "Nature Documentary",
+        "description": "Wildlife scene with ambient sounds and narration",
+        "url": "#",
+        "target": "_self",
+        "image": {
+          "src": "/imgs/showcases/nature.png"
+        },
+        "video_url": "/videos/showcase/nature.mp4"
+      },
+      {
+        "title": "Product Commercial",
+        "description": "Professional product showcase with voiceover",
+        "url": "#",
+        "target": "_self",
+        "image": {
+          "src": "/imgs/showcases/commercial.png"
+        },
+        "video_url": "/videos/showcase/commercial.mp4"
+      }
+    ]
+  },
+  "stats": {
+    "name": "stats",
+    "label": "Performance",
+    "title": "#1 Ranked AI Video Model",
+    "description": "on Artificial Analysis benchmark, outperforming Sora, Runway, Veo 3, and Kling.",
+    "icon": "RiTrophyFill",
+    "items": [
+      {
+        "title": "Ranking",
+        "label": "#1",
+        "description": "Artificial Analysis"
+      },
+      {
+        "title": "Languages",
+        "label": "8+",
+        "description": "Supported"
+      },
+      {
+        "title": "Faster",
+        "label": "30%",
+        "description": "Than Competitors"
+      }
+    ]
+  },
+  "pricing": {
+    "name": "pricing",
+    "label": "Pricing",
+    "title": "Choose Your Plan",
+    "description": "Start creating AI videos with native audio synchronization today.",
+    "groups": [],
+    "items": [
+      {
+        "title": "Free",
+        "description": "Try Seedance 2.0 with basic features.",
+        "features_title": "Includes",
+        "features": [
+          "5 video generations per day",
+          "720p resolution",
+          "Basic audio sync",
+          "3 languages (EN/ZH/JP)",
+          "Watermark on exports",
+          "Community support"
+        ],
+        "interval": "monthly",
+        "amount": 0,
+        "currency": "USD",
+        "price": "Free",
+        "original_price": "",
+        "unit": "",
+        "is_featured": false,
+        "tip": "No credit card required",
+        "button": {
+          "title": "Get Started",
+          "url": "https://jimeng.jianying.com/ai-tool/seedance",
+          "target": "_blank",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "free",
+        "product_name": "Seedance 2.0 Free",
+        "credits": 5,
+        "valid_months": 1
+      },
+      {
+        "title": "Basic",
+        "description": "For individual creators and hobbyists.",
+        "features_title": "Everything in Free, plus",
+        "features": [
+          "50 video generations per month",
+          "1080p resolution",
+          "Advanced audio sync",
+          "All 8+ languages",
+          "No watermark",
+          "Priority queue"
+        ],
+        "interval": "monthly",
+        "amount": 1900,
+        "currency": "USD",
+        "price": "$19",
+        "original_price": "$29",
+        "unit": "/month",
+        "is_featured": false,
+        "tip": "Cancel anytime",
+        "button": {
+          "title": "Subscribe",
+          "url": "https://jimeng.jianying.com/ai-tool/seedance",
+          "target": "_blank",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "basic",
+        "product_name": "Seedance 2.0 Basic",
+        "credits": 50,
+        "valid_months": 1
+      },
+      {
+        "title": "Plus",
+        "label": "Most Popular",
+        "description": "For professional creators and small teams.",
+        "features_title": "Everything in Basic, plus",
+        "features": [
+          "200 video generations per month",
+          "2K resolution",
+          "Multi-shot narratives",
+          "Custom voice cloning",
+          "API access",
+          "Priority support"
+        ],
+        "interval": "monthly",
+        "amount": 4900,
+        "currency": "USD",
+        "price": "$49",
+        "original_price": "$79",
+        "unit": "/month",
+        "is_featured": true,
+        "tip": "Best value for creators",
+        "button": {
+          "title": "Subscribe",
+          "url": "https://jimeng.jianying.com/ai-tool/seedance",
+          "target": "_blank",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "plus",
+        "product_name": "Seedance 2.0 Plus",
+        "credits": 200,
+        "valid_months": 1
+      },
+      {
+        "title": "Pro",
+        "description": "For studios and enterprise teams.",
+        "features_title": "Everything in Plus, plus",
+        "features": [
+          "Unlimited video generations",
+          "4K resolution (coming soon)",
+          "Team collaboration",
+          "Custom model fine-tuning",
+          "Dedicated support",
+          "SLA guarantee"
+        ],
+        "interval": "monthly",
+        "amount": 19900,
+        "currency": "USD",
+        "price": "$199",
+        "original_price": "$299",
+        "unit": "/month",
+        "is_featured": false,
+        "tip": "Enterprise-grade features",
+        "button": {
+          "title": "Contact Sales",
+          "url": "mailto:sales@seedance2.site",
+          "target": "_blank",
+          "icon": "RiMailLine"
+        },
+        "product_id": "pro",
+        "product_name": "Seedance 2.0 Pro",
+        "credits": -1,
+        "valid_months": 1
+      }
+    ]
+  },
+  "testimonial": {
+    "name": "testimonial",
+    "label": "Testimonial",
+    "title": "What Creators Say",
+    "description": "Join thousands of creators making amazing content with Seedance 2.0.",
+    "icon": "GoThumbsup",
+    "items": [
+      {
+        "title": "Alex Chen",
+        "label": "Film Director",
+        "description": "The lip-sync technology is incredible. I've tried every AI video tool, and Seedance 2.0 is the first one that produces believable dialogue scenes. It's changed how I approach pre-visualization.",
+        "image": {
+          "src": "/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "Maria Rodriguez",
+        "label": "Content Creator",
+        "description": "I create content in Spanish and English. Seedance 2.0's multi-language support is seamless - the lip sync works perfectly in both languages. My audience engagement has doubled.",
+        "image": {
+          "src": "/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "Yuki Tanaka",
+        "label": "Animation Studio Lead",
+        "description": "The multi-shot capability is a game-changer. We can now generate complex scene sequences from a single prompt. It's like having a virtual cinematographer on the team.",
+        "image": {
+          "src": "/imgs/users/3.png"
+        }
+      },
+      {
+        "title": "James Wilson",
+        "label": "Marketing Director",
+        "description": "We've cut our video production time by 80%. The native audio generation means no more syncing issues or hiring voice actors for every language variant.",
+        "image": {
+          "src": "/imgs/users/4.png"
+        }
+      },
+      {
+        "title": "Sophie Laurent",
+        "label": "Indie Game Developer",
+        "description": "For game cinematics, Seedance 2.0 is unbeatable. The 2K quality and synchronized audio make our trailers look like AAA productions at a fraction of the cost.",
+        "image": {
+          "src": "/imgs/users/5.png"
+        }
+      },
+      {
+        "title": "Kim Min-jun",
+        "label": "K-Drama Content Creator",
+        "description": "Finally, an AI that understands Korean lip-sync! The phoneme-level accuracy is remarkable. My Korean content has never looked more authentic.",
+        "image": {
+          "src": "/imgs/users/6.png"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "name": "faq",
+    "label": "FAQ",
+    "title": "Frequently Asked Questions",
+    "description": "Have more questions? Contact us at support@seedance2.site",
+    "items": [
+      {
+        "title": "What makes Seedance 2.0 different from other AI video generators?",
+        "description": "Seedance 2.0 is the first AI video model with native audio-video synchronization. Unlike tools that generate video first and add audio later, Seedance 2.0 uses a Dual-Branch Diffusion Transformer to create perfectly synchronized audio and video simultaneously. This results in natural lip-sync, properly timed sound effects, and coherent audio-visual narratives."
+      },
+      {
+        "title": "Which languages are supported for lip synchronization?",
+        "description": "Seedance 2.0 supports phoneme-level lip synchronization in 8+ languages: English, Chinese (Mandarin), Korean, Japanese, Spanish, French, German, and Portuguese. More languages are being added regularly. Each language has been specifically trained for accurate mouth movements and natural speech patterns."
+      },
+      {
+        "title": "What resolution and quality can I expect?",
+        "description": "Seedance 2.0 generates videos in up to 2K resolution (2560x1440) with cinema-quality visual effects. The Pro plan will soon support 4K output. All videos feature smooth 30fps playback with high bitrate encoding suitable for professional distribution."
+      },
+      {
+        "title": "How does multi-shot narrative generation work?",
+        "description": "With multi-shot generation, you can describe a complete scene sequence in a single prompt, and Seedance 2.0 will generate multiple coherent shots with consistent characters, settings, and story flow. For example, you can describe a conversation with reaction shots, and the AI will create a properly edited sequence."
+      },
+      {
+        "title": "Can I use generated videos for commercial purposes?",
+        "description": "Yes! All paid plans (Basic, Plus, Pro) include full commercial rights to generated content. Free plan videos include a watermark and are for personal/non-commercial use only. We recommend reviewing our Terms of Service for specific usage guidelines."
+      },
+      {
+        "title": "How does Seedance 2.0 compare to Sora, Runway, and Veo 3?",
+        "description": "Seedance 2.0 ranks #1 on the Artificial Analysis benchmark, outperforming Sora, Runway Gen-3, Veo 3, and Kling in overall video quality. Key advantages include native audio-video sync (no post-processing needed), superior lip-sync accuracy, multi-shot storytelling, and 30% faster generation speed. See our detailed comparison page for benchmarks."
+      },
+      {
+        "title": "What's the Dual-Branch Diffusion Transformer architecture?",
+        "description": "The Dual-Branch DiT is Seedance 2.0's core innovation. It uses two parallel transformer branches - one for video generation and one for audio - that share information at each denoising step. This allows the model to generate perfectly synchronized audio and video rather than treating them as separate outputs."
+      },
+      {
+        "title": "Is there an API available for developers?",
+        "description": "Yes, API access is available starting with the Plus plan. The Seedance 2.0 API allows you to integrate video generation into your applications, with support for text-to-video, image-to-video, and video-to-video transformations. Full API documentation is available at docs.seedance2.site."
+      }
+    ]
+  },
+  "cta": {
+    "name": "cta",
+    "title": "Start Creating with Seedance 2.0",
+    "description": "Join the future of AI video generation with native audio synchronization.",
+    "buttons": [
+      {
+        "title": "Try Free Now",
+        "url": "https://jimeng.jianying.com/ai-tool/seedance",
+        "target": "_blank",
+        "icon": "RiFlashlightFill"
+      },
+      {
+        "title": "View Documentation",
+        "url": "/guide",
+        "target": "_self",
+        "variant": "outline"
+      }
+    ]
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "Seedance 2.0",
+      "description": "The world's first AI video generation model with native audio-video synchronization. Powered by ByteDance Seed Team.",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "Seedance 2.0"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2025 ByteDance Seed Team. All rights reserved.",
+    "nav": {
+      "items": [
+        {
+          "title": "Product",
+          "children": [
+            {
+              "title": "Features",
+              "url": "/#feature",
+              "target": "_self"
+            },
+            {
+              "title": "Showcase",
+              "url": "/#showcase",
+              "target": "_self"
+            },
+            {
+              "title": "Pricing",
+              "url": "/#pricing",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "Resources",
+          "children": [
+            {
+              "title": "Prompt Guide",
+              "url": "/guide",
+              "target": "_self"
+            },
+            {
+              "title": "Examples",
+              "url": "/examples",
+              "target": "_self"
+            },
+            {
+              "title": "Compare",
+              "url": "/compare",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "Company",
+          "children": [
+            {
+              "title": "ByteDance",
+              "url": "https://bytedance.com",
+              "target": "_blank"
+            },
+            {
+              "title": "Seed Team",
+              "url": "https://seed.bytedance.com",
+              "target": "_blank"
+            },
+            {
+              "title": "Jimeng AI",
+              "url": "https://jimeng.jianying.com",
+              "target": "_blank"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "X",
+          "icon": "RiTwitterXFill",
+          "url": "https://x.com/seedance_ai",
+          "target": "_blank"
+        },
+        {
+          "title": "GitHub",
+          "icon": "RiGithubFill",
+          "url": "https://github.com/bytedance",
+          "target": "_blank"
+        },
+        {
+          "title": "Discord",
+          "icon": "RiDiscordFill",
+          "url": "https://discord.gg/seedance",
+          "target": "_blank"
+        },
+        {
+          "title": "Email",
+          "icon": "RiMailLine",
+          "url": "mailto:support@seedance2.site",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "Privacy Policy",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "Terms of Service",
+          "url": "/terms-of-service"
+        }
+      ]
+    }
+  }
+}

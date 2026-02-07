@@ -23,11 +23,6 @@
           "icon": "BiCube"
         },
         {
-          "title": "价格方案",
-          "url": "/#pricing",
-          "icon": "MdPayment"
-        },
-        {
           "title": "资源中心",
           "url": "#",
           "icon": "RiBookLine",
@@ -194,31 +189,19 @@
     "items": [
       {
         "title": "编写 Prompt",
-        "description": "描述视频场景、角色、动作和期望的音频。明确说明情绪、场景和对话内容。",
-        "image": {
-          "src": "/imgs/features/6.png"
-        }
+        "description": "描述视频场景、角色、动作和期望的音频。明确说明情绪、场景和对话内容。"
       },
       {
         "title": "选择语言和风格",
-        "description": "从 8+ 语言中选择对话和唇形同步语言。选择视觉风格 - 电影级、动漫、写实或艺术风格。",
-        "image": {
-          "src": "/imgs/features/7.png"
-        }
+        "description": "从 8+ 语言中选择对话和唇形同步语言。选择视觉风格 - 电影级、动漫、写实或艺术风格。"
       },
       {
         "title": "生成视频",
-        "description": "Seedance 2.0 处理您的 Prompt，使用双分支 DiT 技术生成同步的音频和视频。",
-        "image": {
-          "src": "/imgs/features/8.png"
-        }
+        "description": "Seedance 2.0 处理您的 Prompt，使用双分支 DiT 技术生成同步的音频和视频。"
       },
       {
         "title": "下载分享",
-        "description": "导出 2K 分辨率视频及原生音频。可用于社交媒体、演示文稿或专业制作。",
-        "image": {
-          "src": "/imgs/features/9.png"
-        }
+        "description": "导出 2K 分辨率视频及原生音频。可用于社交媒体、演示文稿或专业制作。"
       }
     ]
   },
@@ -347,140 +330,6 @@
         "title": "更快",
         "label": "30%",
         "description": "领先竞品"
-      }
-    ]
-  },
-  "pricing": {
-    "name": "pricing",
-    "label": "价格方案",
-    "title": "选择适合您的方案",
-    "description": "立即开始使用原生音视频同步的 AI 视频生成。",
-    "groups": [],
-    "items": [
-      {
-        "title": "免费版",
-        "description": "体验 Seedance 2.0 基础功能。",
-        "features_title": "包含",
-        "features": [
-          "每天 5 次视频生成",
-          "720p 分辨率",
-          "基础音频同步",
-          "3 种语言（中/英/日）",
-          "导出带水印",
-          "社区支持"
-        ],
-        "interval": "monthly",
-        "amount": 0,
-        "currency": "USD",
-        "price": "免费",
-        "original_price": "",
-        "unit": "",
-        "is_featured": false,
-        "tip": "无需信用卡",
-        "button": {
-          "title": "开始使用",
-          "url": "https://jimeng.jianying.com/ai-tool/seedance",
-          "target": "_blank",
-          "icon": "RiFlashlightFill"
-        },
-        "product_id": "free",
-        "product_name": "Seedance 2.0 免费版",
-        "credits": 5,
-        "valid_months": 1
-      },
-      {
-        "title": "基础版",
-        "description": "适合个人创作者和爱好者。",
-        "features_title": "免费版全部功能，另加",
-        "features": [
-          "每月 50 次视频生成",
-          "1080p 分辨率",
-          "高级音频同步",
-          "全部 8+ 语言",
-          "无水印",
-          "优先队列"
-        ],
-        "interval": "monthly",
-        "amount": 1900,
-        "currency": "USD",
-        "price": "$19",
-        "original_price": "$29",
-        "unit": "/月",
-        "is_featured": false,
-        "tip": "随时取消",
-        "button": {
-          "title": "订阅",
-          "url": "https://jimeng.jianying.com/ai-tool/seedance",
-          "target": "_blank",
-          "icon": "RiFlashlightFill"
-        },
-        "product_id": "basic",
-        "product_name": "Seedance 2.0 基础版",
-        "credits": 50,
-        "valid_months": 1
-      },
-      {
-        "title": "专业版",
-        "label": "最受欢迎",
-        "description": "适合专业创作者和小型团队。",
-        "features_title": "基础版全部功能，另加",
-        "features": [
-          "每月 200 次视频生成",
-          "2K 分辨率",
-          "多镜头叙事",
-          "自定义语音克隆",
-          "API 接口",
-          "优先支持"
-        ],
-        "interval": "monthly",
-        "amount": 4900,
-        "currency": "USD",
-        "price": "$49",
-        "original_price": "$79",
-        "unit": "/月",
-        "is_featured": true,
-        "tip": "创作者最佳选择",
-        "button": {
-          "title": "订阅",
-          "url": "https://jimeng.jianying.com/ai-tool/seedance",
-          "target": "_blank",
-          "icon": "RiFlashlightFill"
-        },
-        "product_id": "plus",
-        "product_name": "Seedance 2.0 专业版",
-        "credits": 200,
-        "valid_months": 1
-      },
-      {
-        "title": "企业版",
-        "description": "适合工作室和企业团队。",
-        "features_title": "专业版全部功能，另加",
-        "features": [
-          "无限视频生成",
-          "4K 分辨率（即将推出）",
-          "团队协作",
-          "自定义模型微调",
-          "专属客服",
-          "SLA 保障"
-        ],
-        "interval": "monthly",
-        "amount": 19900,
-        "currency": "USD",
-        "price": "$199",
-        "original_price": "$299",
-        "unit": "/月",
-        "is_featured": false,
-        "tip": "企业级功能",
-        "button": {
-          "title": "联系销售",
-          "url": "mailto:sales@seedance2.site",
-          "target": "_blank",
-          "icon": "RiMailLine"
-        },
-        "product_id": "pro",
-        "product_name": "Seedance 2.0 企业版",
-        "credits": -1,
-        "valid_months": 1
       }
     ]
   },
@@ -625,11 +474,6 @@
             {
               "title": "案例展示",
               "url": "/#showcase",
-              "target": "_self"
-            },
-            {
-              "title": "价格方案",
-              "url": "/#pricing",
               "target": "_self"
             }
           ]

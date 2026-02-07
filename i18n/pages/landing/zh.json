@@ -104,38 +104,23 @@
     "items": [
       {
         "title": "字节跳动",
-        "image": {
-          "src": "/imgs/logos/bytedance.svg",
-          "alt": "字节跳动"
-        }
+        "icon": "SiBytedance"
       },
       {
         "title": "Seed 团队",
-        "image": {
-          "src": "/imgs/logos/seed.svg",
-          "alt": "Seed Team"
-        }
+        "icon": "RiSeedlingFill"
       },
       {
         "title": "2K 分辨率",
-        "image": {
-          "src": "/imgs/logos/2k.svg",
-          "alt": "2K 分辨率"
-        }
+        "icon": "Ri4kFill"
       },
       {
         "title": "8+ 语言",
-        "image": {
-          "src": "/imgs/logos/languages.svg",
-          "alt": "8+ 语言"
-        }
+        "icon": "RiTranslate2"
       },
       {
         "title": "双分支 DiT",
-        "image": {
-          "src": "/imgs/logos/dit.svg",
-          "alt": "Dual-Branch DiT"
-        }
+        "icon": "RiGitBranchLine"
       }
     ]
   },
@@ -145,7 +130,7 @@
     "label": "产品介绍",
     "description": "Seedance 2.0 是全球首个支持原生音视频同步的 AI 视频生成模型。生成工作室级品质的视频，音效、对话、音乐完美同步。",
     "image": {
-      "src": "/imgs/features/seedance-intro.png"
+      "src": "/imgs/features/1.png"
     },
     "items": [
       {
@@ -176,7 +161,7 @@
         "description": "革命性的音素级唇形同步技术，确保角色在任何语言中都能自然说话。告别恐怖谷效应，呈现真实、富有表现力的数字人。",
         "icon": "RiUserVoiceFill",
         "image": {
-          "src": "/imgs/features/lip-sync.png"
+          "src": "/imgs/features/2.png"
         }
       },
       {
@@ -184,7 +169,7 @@
         "description": "一个 Prompt 生成复杂的电影级场景序列。Seedance 2.0 理解故事结构，生成角色和场景一致的连贯多场景视频。",
         "icon": "RiFilmFill",
         "image": {
-          "src": "/imgs/features/multi-shot.png"
+          "src": "/imgs/features/3.png"
         }
       },
       {
@@ -192,7 +177,7 @@
         "description": "优化的架构比任何竞品都快，在不牺牲质量的前提下，用更短的时间创造更多内容。",
         "icon": "RiSpeedFill",
         "image": {
-          "src": "/imgs/features/speed.png"
+          "src": "/imgs/features/4.png"
         }
       }
     ]
@@ -202,7 +187,7 @@
     "title": "如何使用 Seedance 2.0",
     "description": "四步生成精彩 AI 视频：",
     "image": {
-      "src": "/imgs/features/usage-hero.png"
+      "src": "/imgs/features/5.png"
     },
     "image_position": "left",
     "text_align": "center",
@@ -211,28 +196,28 @@
         "title": "编写 Prompt",
         "description": "描述视频场景、角色、动作和期望的音频。明确说明情绪、场景和对话内容。",
         "image": {
-          "src": "/imgs/features/step1.png"
+          "src": "/imgs/features/6.png"
         }
       },
       {
         "title": "选择语言和风格",
         "description": "从 8+ 语言中选择对话和唇形同步语言。选择视觉风格 - 电影级、动漫、写实或艺术风格。",
         "image": {
-          "src": "/imgs/features/step2.png"
+          "src": "/imgs/features/7.png"
         }
       },
       {
         "title": "生成视频",
         "description": "Seedance 2.0 处理您的 Prompt，使用双分支 DiT 技术生成同步的音频和视频。",
         "image": {
-          "src": "/imgs/features/step3.png"
+          "src": "/imgs/features/8.png"
         }
       },
       {
         "title": "下载分享",
         "description": "导出 2K 分辨率视频及原生音频。可用于社交媒体、演示文稿或专业制作。",
         "image": {
-          "src": "/imgs/features/step4.png"
+          "src": "/imgs/features/9.png"
         }
       }
     ]
@@ -282,62 +267,56 @@
       {
         "title": "电影对话场景",
         "description": "两个角色使用英语对话，完美唇形同步",
-        "url": "#",
-        "target": "_self",
+        "url": "https://jimeng.jianying.com/ai-tool/seedance",
+        "target": "_blank",
         "image": {
-          "src": "/imgs/showcases/dialogue.png"
-        },
-        "video_url": "/videos/showcase/dialogue.mp4"
+          "src": "/imgs/showcases/1.png"
+        }
       },
       {
         "title": "多语言旁白",
         "description": "同一场景分别用中文、英语、日语配音",
-        "url": "#",
-        "target": "_self",
+        "url": "https://jimeng.jianying.com/ai-tool/seedance",
+        "target": "_blank",
         "image": {
-          "src": "/imgs/showcases/multilang.png"
-        },
-        "video_url": "/videos/showcase/multilang.mp4"
+          "src": "/imgs/showcases/2.png"
+        }
       },
       {
         "title": "动作序列",
         "description": "多镜头动作场景，音效完美同步",
-        "url": "#",
-        "target": "_self",
+        "url": "https://jimeng.jianying.com/ai-tool/seedance",
+        "target": "_blank",
         "image": {
-          "src": "/imgs/showcases/action.png"
-        },
-        "video_url": "/videos/showcase/action.mp4"
+          "src": "/imgs/showcases/3.png"
+        }
       },
       {
         "title": "音乐表演",
         "description": "AI 生成的歌手，演唱和动作完美同步",
-        "url": "#",
-        "target": "_self",
+        "url": "https://jimeng.jianying.com/ai-tool/seedance",
+        "target": "_blank",
         "image": {
-          "src": "/imgs/showcases/music.png"
-        },
-        "video_url": "/videos/showcase/music.mp4"
+          "src": "/imgs/showcases/4.png"
+        }
       },
       {
         "title": "自然纪录片",
         "description": "野生动物场景配合环境音效和旁白",
-        "url": "#",
-        "target": "_self",
+        "url": "https://jimeng.jianying.com/ai-tool/seedance",
+        "target": "_blank",
         "image": {
-          "src": "/imgs/showcases/nature.png"
-        },
-        "video_url": "/videos/showcase/nature.mp4"
+          "src": "/imgs/showcases/5.png"
+        }
       },
       {
         "title": "产品广告",
         "description": "专业产品展示配合画外音",
-        "url": "#",
-        "target": "_self",
+        "url": "https://jimeng.jianying.com/ai-tool/seedance",
+        "target": "_blank",
         "image": {
-          "src": "/imgs/showcases/commercial.png"
-        },
-        "video_url": "/videos/showcase/commercial.mp4"
+          "src": "/imgs/showcases/6.png"
+        }
       }
     ]
   },

@@ -104,38 +104,23 @@
     "items": [
       {
         "title": "ByteDance",
-        "image": {
-          "src": "/imgs/logos/bytedance.svg",
-          "alt": "ByteDance"
-        }
+        "icon": "SiBytedance"
       },
       {
         "title": "Seed Team",
-        "image": {
-          "src": "/imgs/logos/seed.svg",
-          "alt": "Seed Team"
-        }
+        "icon": "RiSeedlingFill"
       },
       {
         "title": "2K Resolution",
-        "image": {
-          "src": "/imgs/logos/2k.svg",
-          "alt": "2K Resolution"
-        }
+        "icon": "Ri4kFill"
       },
       {
         "title": "8+ Languages",
-        "image": {
-          "src": "/imgs/logos/languages.svg",
-          "alt": "8+ Languages"
-        }
+        "icon": "RiTranslate2"
       },
       {
         "title": "Dual-Branch DiT",
-        "image": {
-          "src": "/imgs/logos/dit.svg",
-          "alt": "Dual-Branch DiT"
-        }
+        "icon": "RiGitBranchLine"
       }
     ]
   },
@@ -145,7 +130,7 @@
     "label": "Introduce",
     "description": "Seedance 2.0 is the world's first AI video model with native audio-video synchronization. Generate studio-quality videos with perfectly timed sound effects, dialogue, and music.",
     "image": {
-      "src": "/imgs/features/seedance-intro.png"
+      "src": "/imgs/features/1.png"
     },
     "items": [
       {
@@ -176,7 +161,7 @@
         "description": "Revolutionary phoneme-level lip sync technology ensures characters speak naturally in any language. No more uncanny valley - just realistic, expressive digital humans.",
         "icon": "RiUserVoiceFill",
         "image": {
-          "src": "/imgs/features/lip-sync.png"
+          "src": "/imgs/features/2.png"
         }
       },
       {
@@ -184,7 +169,7 @@
         "description": "Create complex, cinematic sequences from a single prompt. Seedance 2.0 understands story structure and generates coherent multi-scene videos with consistent characters and settings.",
         "icon": "RiFilmFill",
         "image": {
-          "src": "/imgs/features/multi-shot.png"
+          "src": "/imgs/features/3.png"
         }
       },
       {
@@ -192,7 +177,7 @@
         "description": "Optimized architecture delivers studio-quality results faster than any competitor. Generate more content in less time without compromising on quality.",
         "icon": "RiSpeedFill",
         "image": {
-          "src": "/imgs/features/speed.png"
+          "src": "/imgs/features/4.png"
         }
       }
     ]
@@ -202,7 +187,7 @@
     "title": "How to Use Seedance 2.0",
     "description": "Create stunning AI videos in four simple steps:",
     "image": {
-      "src": "/imgs/features/usage-hero.png"
+      "src": "/imgs/features/5.png"
     },
     "image_position": "left",
     "text_align": "center",
@@ -211,28 +196,28 @@
         "title": "Write Your Prompt",
         "description": "Describe your video scene, characters, actions, and desired audio. Be specific about mood, setting, and dialogue.",
         "image": {
-          "src": "/imgs/features/step1.png"
+          "src": "/imgs/features/6.png"
         }
       },
       {
         "title": "Choose Language & Style",
         "description": "Select from 8+ languages for dialogue and lip-sync. Pick your visual style - cinematic, anime, realistic, or artistic.",
         "image": {
-          "src": "/imgs/features/step2.png"
+          "src": "/imgs/features/7.png"
         }
       },
       {
         "title": "Generate Video",
         "description": "Seedance 2.0 processes your prompt and generates synchronized audio and video using Dual-Branch DiT technology.",
         "image": {
-          "src": "/imgs/features/step3.png"
+          "src": "/imgs/features/8.png"
         }
       },
       {
         "title": "Download & Share",
         "description": "Export your 2K resolution video with native audio. Ready for social media, presentations, or professional production.",
         "image": {
-          "src": "/imgs/features/step4.png"
+          "src": "/imgs/features/9.png"
         }
       }
     ]
@@ -282,62 +267,56 @@
       {
         "title": "Cinematic Dialogue Scene",
         "description": "Two characters having a conversation with perfect lip-sync in English",
-        "url": "#",
-        "target": "_self",
+        "url": "https://jimeng.jianying.com/ai-tool/seedance",
+        "target": "_blank",
         "image": {
-          "src": "/imgs/showcases/dialogue.png"
-        },
-        "video_url": "/videos/showcase/dialogue.mp4"
+          "src": "/imgs/showcases/1.png"
+        }
       },
       {
         "title": "Multi-Language Narrator",
         "description": "Same scene narrated in Chinese, English, and Japanese",
-        "url": "#",
-        "target": "_self",
+        "url": "https://jimeng.jianying.com/ai-tool/seedance",
+        "target": "_blank",
         "image": {
-          "src": "/imgs/showcases/multilang.png"
-        },
-        "video_url": "/videos/showcase/multilang.mp4"
+          "src": "/imgs/showcases/2.png"
+        }
       },
       {
         "title": "Action Sequence",
         "description": "Multi-shot action scene with synchronized sound effects",
-        "url": "#",
-        "target": "_self",
+        "url": "https://jimeng.jianying.com/ai-tool/seedance",
+        "target": "_blank",
         "image": {
-          "src": "/imgs/showcases/action.png"
-        },
-        "video_url": "/videos/showcase/action.mp4"
+          "src": "/imgs/showcases/3.png"
+        }
       },
       {
         "title": "Musical Performance",
         "description": "AI-generated singer with synchronized vocals and movements",
-        "url": "#",
-        "target": "_self",
+        "url": "https://jimeng.jianying.com/ai-tool/seedance",
+        "target": "_blank",
         "image": {
-          "src": "/imgs/showcases/music.png"
-        },
-        "video_url": "/videos/showcase/music.mp4"
+          "src": "/imgs/showcases/4.png"
+        }
       },
       {
         "title": "Nature Documentary",
         "description": "Wildlife scene with ambient sounds and narration",
-        "url": "#",
-        "target": "_self",
+        "url": "https://jimeng.jianying.com/ai-tool/seedance",
+        "target": "_blank",
         "image": {
-          "src": "/imgs/showcases/nature.png"
-        },
-        "video_url": "/videos/showcase/nature.mp4"
+          "src": "/imgs/showcases/5.png"
+        }
       },
       {
         "title": "Product Commercial",
         "description": "Professional product showcase with voiceover",
-        "url": "#",
-        "target": "_self",
+        "url": "https://jimeng.jianying.com/ai-tool/seedance",
+        "target": "_blank",
         "image": {
-          "src": "/imgs/showcases/commercial.png"
-        },
-        "video_url": "/videos/showcase/commercial.mp4"
+          "src": "/imgs/showcases/6.png"
+        }
       }
     ]
   },

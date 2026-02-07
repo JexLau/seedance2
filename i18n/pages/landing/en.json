@@ -130,7 +130,7 @@
     "label": "Introduce",
     "description": "Seedance 2.0 is the world's first AI video model with native audio-video synchronization. Generate studio-quality videos with perfectly timed sound effects, dialogue, and music.",
     "image": {
-      "src": "/imgs/features/1.png"
+      "src": "/imgs/features/seedance-official-1.png"
     },
     "items": [
       {
@@ -161,7 +161,7 @@
         "description": "Revolutionary phoneme-level lip sync technology ensures characters speak naturally in any language. No more uncanny valley - just realistic, expressive digital humans.",
         "icon": "RiUserVoiceFill",
         "image": {
-          "src": "/imgs/features/2.png"
+          "src": "/imgs/features/seedance-official-2.png"
         }
       },
       {
@@ -169,7 +169,7 @@
         "description": "Create complex, cinematic sequences from a single prompt. Seedance 2.0 understands story structure and generates coherent multi-scene videos with consistent characters and settings.",
         "icon": "RiFilmFill",
         "image": {
-          "src": "/imgs/features/3.png"
+          "src": "/imgs/features/seedance-official-3.png"
         }
       },
       {
@@ -177,7 +177,7 @@
         "description": "Optimized architecture delivers studio-quality results faster than any competitor. Generate more content in less time without compromising on quality.",
         "icon": "RiSpeedFill",
         "image": {
-          "src": "/imgs/features/4.png"
+          "src": "/imgs/features/seedance-ranking.png"
         }
       }
     ]
@@ -187,7 +187,7 @@
     "title": "How to Use Seedance 2.0",
     "description": "Create stunning AI videos in four simple steps:",
     "image": {
-      "src": "/imgs/features/5.png"
+      "src": "/imgs/showcases/seedance-demo1.png"
     },
     "image_position": "left",
     "text_align": "center",
@@ -270,8 +270,9 @@
         "url": "https://jimeng.jianying.com/ai-tool/seedance",
         "target": "_blank",
         "image": {
-          "src": "/imgs/showcases/1.png"
-        }
+          "src": "/imgs/showcases/seedance-demo1.png"
+        },
+        "video_url": "/videos/showcase/dialogue.mp4"
       },
       {
         "title": "Multi-Language Narrator",
@@ -279,8 +280,9 @@
         "url": "https://jimeng.jianying.com/ai-tool/seedance",
         "target": "_blank",
         "image": {
-          "src": "/imgs/showcases/2.png"
-        }
+          "src": "/imgs/showcases/seedance-official-4.png"
+        },
+        "video_url": "/videos/showcase/multilang.mp4"
       },
       {
         "title": "Action Sequence",
@@ -288,8 +290,9 @@
         "url": "https://jimeng.jianying.com/ai-tool/seedance",
         "target": "_blank",
         "image": {
-          "src": "/imgs/showcases/3.png"
-        }
+          "src": "/imgs/showcases/seedance-official-5.png"
+        },
+        "video_url": "/videos/showcase/action.mp4"
       },
       {
         "title": "Musical Performance",
@@ -297,8 +300,9 @@
         "url": "https://jimeng.jianying.com/ai-tool/seedance",
         "target": "_blank",
         "image": {
-          "src": "/imgs/showcases/4.png"
-        }
+          "src": "/imgs/showcases/seedance-official-6.png"
+        },
+        "video_url": "/videos/showcase/music.mp4"
       },
       {
         "title": "Nature Documentary",
@@ -306,17 +310,19 @@
         "url": "https://jimeng.jianying.com/ai-tool/seedance",
         "target": "_blank",
         "image": {
-          "src": "/imgs/showcases/5.png"
-        }
+          "src": "/imgs/showcases/seedance-demo1.png"
+        },
+        "video_url": "/videos/showcase/nature.mp4"
       },
       {
-        "title": "Product Commercial",
-        "description": "Professional product showcase with voiceover",
+        "title": "Full Demo Reel",
+        "description": "Complete showcase of Seedance 2.0 capabilities",
         "url": "https://jimeng.jianying.com/ai-tool/seedance",
         "target": "_blank",
         "image": {
-          "src": "/imgs/showcases/6.png"
-        }
+          "src": "/imgs/showcases/seedance-official-4.png"
+        },
+        "video_url": "/videos/showcase/commercial.mp4"
       }
     ]
   },

@@ -12,7 +12,7 @@ import {
   CarouselContent,
   CarouselItem,
 } from "@/components/ui/carousel";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo, useCallback, useRef } from "react";
 
 import { Badge } from "@/components/ui/badge";
 import Fade from "embla-carousel-fade";
@@ -22,24 +22,46 @@ import { Section as SectionType } from "@/types/blocks/section";
 const DURATION = 5000;
 
 export default function Feature2({ section }: { section: SectionType }) {
-  if (section.disabled) {
-    return null;
-  }
-
   const [api, setApi] = useState<CarouselApi>();
   const [currentAccordion, setCurrentAccordion] = useState("1");
 
+  // Memoize Fade plugin to prevent recreation on each render
+  const fadePlugin = useMemo(() => Fade(), []);
+
+  // Get max items count for cycling
+  const maxItems = section.items?.length || 3;
+
+  // useRef to track current accordion for interval callback
+  const currentAccordionRef = useRef(currentAccordion);
+  currentAccordionRef.current = currentAccordion;
+
   useEffect(() => {
     api?.scrollTo(+currentAccordion - 1);
+  }, [api, currentAccordion]);
+
+  useEffect(() => {
     const interval = setInterval(() => {
       setCurrentAccordion((prev) => {
         const next = parseInt(prev) + 1;
-        return next > 3 ? "1" : next.toString();
+        return next > maxItems ? "1" : next.toString();
       });
     }, DURATION);
 
     return () => clearInterval(interval);
-  }, [api, currentAccordion]);
+  }, [maxItems]);
+
+  // Memoize accordion value change handler
+  const handleAccordionChange = useCallback(
+    (value: string) => {
+      setCurrentAccordion(value);
+      api?.scrollTo(+value - 1);
+    },
+    [api]
+  );
+
+  if (section.disabled) {
+    return null;
+  }
 
   return (
     <section id={section.name} className="py-32">
@@ -60,11 +82,7 @@ export default function Feature2({ section }: { section: SectionType }) {
             <Accordion
               type="single"
               value={currentAccordion}
-              onValueChange={(value) => {
-                setCurrentAccordion(value);
-                console.log(value);
-                api?.scrollTo(+value - 1);
-              }}
+              onValueChange={handleAccordionChange}
             >
               {section.items?.map((item, i) => (
                 <AccordionItem
@@ -108,7 +126,7 @@ export default function Feature2({ section }: { section: SectionType }) {
                 duration: 50,
               }}
               setApi={setApi}
-              plugins={[Fade()]}
+              plugins={[fadePlugin]}
             >
               <CarouselContent>
                 {section.items?.map((item, i) => (

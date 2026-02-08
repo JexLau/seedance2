@@ -20,7 +20,7 @@ export default function Hero({ hero }: { hero: HeroType }) {
   return (
     <>
       <HeroBg />
-      <section className="py-24">
+      <section className="py-20 md:py-32">
         <div className="container">
           {hero.show_badge && (
             <div className="flex items-center justify-center mb-8">
@@ -35,35 +35,37 @@ export default function Hero({ hero }: { hero: HeroType }) {
             {hero.announcement && (
               <a
                 href={hero.announcement.url}
-                className="mx-auto mb-3 inline-flex items-center gap-3 rounded-full border px-2 py-1 text-sm"
+                className="mx-auto mb-6 inline-flex items-center gap-3 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm backdrop-blur-sm transition-all duration-200 hover:bg-white/10 hover:border-white/20"
               >
                 {hero.announcement.label && (
-                  <Badge>{hero.announcement.label}</Badge>
+                  <Badge className="bg-primary/20 text-primary border-0 rounded-full px-3">
+                    {hero.announcement.label}
+                  </Badge>
                 )}
-                {hero.announcement.title}
+                <span className="text-muted-foreground">{hero.announcement.title}</span>
               </a>
             )}
 
             {texts && texts.length > 1 ? (
-              <h1 className="mx-auto mb-3 mt-4 max-w-3xl text-balance text-4xl font-bold lg:mb-7 lg:text-7xl">
+              <h1 className="mx-auto mb-6 mt-6 max-w-4xl text-balance text-4xl font-bold tracking-tight lg:mb-8 lg:text-6xl xl:text-7xl">
                 {texts[0]}
-                <span className="bg-gradient-to-r from-primary via-primary to-primary bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-primary via-primary-50 to-primary bg-clip-text text-transparent bg-[length:200%_auto] animate-gradient">
                   {highlightText}
                 </span>
                 {texts[1]}
               </h1>
             ) : (
-              <h1 className="mx-auto mb-3 mt-4 max-w-3xl text-balance text-4xl font-bold lg:mb-7 lg:text-7xl">
+              <h1 className="mx-auto mb-6 mt-6 max-w-4xl text-balance text-4xl font-bold tracking-tight lg:mb-8 lg:text-6xl xl:text-7xl">
                 {hero.title}
               </h1>
             )}
 
             <p
-              className="m mx-auto max-w-3xl text-muted-foreground lg:text-xl"
+              className="mx-auto max-w-2xl text-lg text-muted-foreground lg:text-xl leading-relaxed"
               dangerouslySetInnerHTML={{ __html: hero.description || "" }}
             />
             {hero.buttons && (
-              <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
+              <div className="mt-10 flex flex-col justify-center gap-4 sm:flex-row">
                 {hero.buttons.map((item, i) => {
                   return (
                     <Link
@@ -73,13 +75,13 @@ export default function Hero({ hero }: { hero: HeroType }) {
                       className="flex items-center"
                     >
                       <Button
-                        className="w-full"
+                        className="w-full min-w-[180px]"
                         size="lg"
                         variant={item.variant || "default"}
                       >
                         {item.title}
                         {item.icon && (
-                          <Icon name={item.icon} className="ml-1" />
+                          <Icon name={item.icon} className="ml-2" />
                         )}
                       </Button>
                     </Link>
@@ -88,7 +90,7 @@ export default function Hero({ hero }: { hero: HeroType }) {
               </div>
             )}
             {hero.tip && (
-              <p className="mt-8 text-md text-muted-foreground">{hero.tip}</p>
+              <p className="mt-6 text-sm text-muted-foreground/70">{hero.tip}</p>
             )}
             {hero.show_happy_users && <HappyUsers />}
           </div>

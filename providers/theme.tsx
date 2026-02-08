@@ -1,14 +1,22 @@
 "use client";
 
-import Analytics from "@/components/analytics";
+import dynamic from "next/dynamic";
 import { CacheKey } from "@/services/constant";
 import { ThemeProvider as NextThemesProvider } from "next-themes";
-import SignModal from "@/components/sign/modal";
 import type { ThemeProviderProps } from "next-themes";
 import { Toaster } from "@/components/ui/sonner";
 import { cacheGet } from "@/lib/cache";
 import { useAppContext } from "@/contexts/app";
 import { useEffect } from "react";
+
+// Lazy load heavy components that are not needed immediately
+const SignModal = dynamic(() => import("@/components/sign/modal"), {
+  ssr: false,
+});
+
+const Analytics = dynamic(() => import("@/components/analytics"), {
+  ssr: false,
+});
 
 export function ThemeProvider({ children, ...props }: ThemeProviderProps) {
   const { theme, setTheme } = useAppContext();

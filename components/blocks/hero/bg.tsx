@@ -1,4 +1,7 @@
-export default function HeroBg() {
+import { memo } from "react";
+
+// Memoized SVG background - prevents re-render of large static SVG
+const HeroBg = memo(function HeroBg() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -6,7 +9,7 @@ export default function HeroBg() {
       height="1080"
       viewBox="0 0 1920 1080"
       fill="none"
-      className="-z-50 absolute hidden opacity-25 [mask-image:linear-gradient(to_right,white,transparent,transparent,white)] lg:block"
+      className="-z-50 absolute hidden opacity-[0.08] [mask-image:linear-gradient(to_right,white,transparent,transparent,white)] lg:block"
     >
       <g clipPath="url(#clip0_4_5)">
         <rect width="1920" height="1080" />
@@ -420,4 +423,6 @@ export default function HeroBg() {
       </defs>
     </svg>
   );
-}
+});
+
+export default HeroBg;

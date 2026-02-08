@@ -7,7 +7,7 @@ import {
   CarouselContent,
   CarouselItem,
 } from "@/components/ui/carousel";
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef, memo } from "react";
 
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -17,7 +17,7 @@ interface VideoCardProps {
   item: SectionItem;
 }
 
-function VideoCard({ item }: VideoCardProps) {
+const VideoCard = memo(function VideoCard({ item }: VideoCardProps) {
   const videoRef = useRef<HTMLVideoElement>(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [isMuted, setIsMuted] = useState(true);
@@ -63,21 +63,21 @@ function VideoCard({ item }: VideoCardProps) {
 
   return (
     <div
-      className="group flex flex-col justify-between rounded-xl border border-border bg-card p-6 cursor-pointer"
+      className="group flex flex-col justify-between rounded-2xl border border-white/10 bg-card/50 p-5 cursor-pointer backdrop-blur-sm transition-all duration-300 hover:border-primary/30 hover:bg-card"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
       <div>
         <div className="flex aspect-[3/2] overflow-clip rounded-xl relative">
           <div className="flex-1">
-            <div className="relative h-full w-full origin-bottom transition duration-300 group-hover:scale-105">
+            <div className="relative h-full w-full origin-bottom transition-transform duration-300 group-hover:scale-[1.02]">
               {item.video_url ? (
                 <>
                   <video
                     ref={videoRef}
                     src={item.video_url}
                     poster={item.image?.src}
-                    className="h-full w-full object-cover object-center"
+                    className="h-full w-full object-cover object-center rounded-xl"
                     muted={isMuted}
                     loop
                     playsInline
@@ -85,15 +85,15 @@ function VideoCard({ item }: VideoCardProps) {
                   />
                   {/* Video controls overlay */}
                   <div
-                    className={`absolute inset-0 bg-black/30 flex items-center justify-center transition-opacity duration-300 ${
+                    className={`absolute inset-0 bg-black/40 flex items-center justify-center transition-opacity duration-300 rounded-xl ${
                       isHovered ? "opacity-100" : "opacity-0"
                     }`}
                   >
-                    <div className="flex items-center gap-2">
+                    <div className="flex items-center gap-3">
                       <Button
                         size="icon"
                         variant="secondary"
-                        className="rounded-full bg-white/90 hover:bg-white"
+                        className="rounded-full bg-white/90 hover:bg-white size-11"
                         onClick={handlePlayPause}
                       >
                         {isPlaying ? (
@@ -105,7 +105,7 @@ function VideoCard({ item }: VideoCardProps) {
                       <Button
                         size="icon"
                         variant="secondary"
-                        className="rounded-full bg-white/90 hover:bg-white"
+                        className="rounded-full bg-white/90 hover:bg-white size-11"
                         onClick={handleMuteToggle}
                       >
                         {isMuted ? (
@@ -117,9 +117,9 @@ function VideoCard({ item }: VideoCardProps) {
                     </div>
                   </div>
                   {/* Video indicator badge */}
-                  <div className="absolute top-2 right-2">
-                    <Badge variant="secondary" className="bg-black/70 text-white border-0">
-                      <Play className="size-3 mr-1" />
+                  <div className="absolute top-3 right-3">
+                    <Badge variant="secondary" className="bg-black/60 text-white border-0 backdrop-blur-sm rounded-lg">
+                      <Play className="size-3 mr-1.5" />
                       Video
                     </Badge>
                   </div>
@@ -128,7 +128,7 @@ function VideoCard({ item }: VideoCardProps) {
                 <img
                   src={item.image?.src}
                   alt={item.image?.alt || item.title}
-                  className="h-full w-full object-cover object-center"
+                  className="h-full w-full object-cover object-center rounded-xl"
                 />
               )}
             </div>
@@ -136,19 +136,19 @@ function VideoCard({ item }: VideoCardProps) {
         </div>
       </div>
       {item.label && (
-        <div className="mt-6">
-          <Badge>{item.label}</Badge>
+        <div className="mt-5">
+          <Badge className="bg-primary/20 text-primary border-0 rounded-lg">{item.label}</Badge>
         </div>
       )}
-      <div className="mb-2 line-clamp-3 break-words pt-4 text-lg font-medium md:mb-3 md:pt-4 md:text-xl lg:pt-4 lg:text-2xl">
+      <div className="mb-2 line-clamp-3 break-words pt-4 text-lg font-semibold md:mb-3 md:pt-4 md:text-xl lg:pt-4 lg:text-xl">
         {item.title}
       </div>
-      <div className="mb-2 line-clamp-2 text-sm text-muted-foreground md:mb-2 md:text-base lg:mb-2">
+      <div className="mb-2 line-clamp-2 text-sm text-muted-foreground md:mb-2 md:text-base lg:mb-2 leading-relaxed">
         {item.description}
       </div>
     </div>
   );
-}
+});
 
 export default function Showcase({ section }: { section: SectionType }) {
   if (section.disabled) {
@@ -175,39 +175,39 @@ export default function Showcase({ section }: { section: SectionType }) {
   }, [carouselApi]);
 
   return (
-    <section id={section.name} className="py-16">
+    <section id={section.name} className="py-20 md:py-24">
       <div className="container">
-        <div className="mb-8 flex items-end justify-between md:mb-14 lg:mb-16">
+        <div className="mb-10 flex items-end justify-between md:mb-14 lg:mb-16">
           <div>
-            <h2 className="mb-2 text-pretty text-3xl font-bold lg:text-4xl">
+            <h2 className="mb-3 text-pretty text-3xl font-bold tracking-tight lg:text-4xl xl:text-5xl">
               {section.title}
             </h2>
             {section.description && (
-              <p className="text-muted-foreground text-lg">
+              <p className="text-muted-foreground text-lg max-w-2xl">
                 {section.description}
               </p>
             )}
           </div>
-          <div className="shrink-0 gap-2 md:flex">
+          <div className="shrink-0 gap-2 hidden md:flex">
             <Button
               size="icon"
-              variant="ghost"
+              variant="outline"
               onClick={() => {
                 carouselApi?.scrollPrev();
               }}
               disabled={!canScrollPrev}
-              className="disabled:pointer-events-auto"
+              className="disabled:pointer-events-auto rounded-xl border-white/10 hover:border-white/20 hover:bg-white/5"
             >
               <ArrowLeft className="size-5" />
             </Button>
             <Button
               size="icon"
-              variant="ghost"
+              variant="outline"
               onClick={() => {
                 carouselApi?.scrollNext();
               }}
               disabled={!canScrollNext}
-              className="disabled:pointer-events-auto"
+              className="disabled:pointer-events-auto rounded-xl border-white/10 hover:border-white/20 hover:bg-white/5"
             >
               <ArrowRight className="size-5" />
             </Button>
